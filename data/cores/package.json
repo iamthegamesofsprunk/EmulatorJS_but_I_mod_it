@@ -40,6 +40,7 @@
         "@emulatorjs/core-stella2014": "latest",
         "@emulatorjs/core-opera": "latest",
         "@emulatorjs/core-genesis_plus_gx": "latest",
+        "@emulatorjs/core-genesis_plus_gx_wide": "latest",
         "@emulatorjs/core-yabause": "latest",
         "@emulatorjs/core-handy": "latest",
         "@emulatorjs/core-virtualjaguar": "latest",

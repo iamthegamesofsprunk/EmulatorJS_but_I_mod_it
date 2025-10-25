@@ -129,6 +129,7 @@
     config.fixedSaveInterval = window.EJS_fixedSaveInterval;
     config.disableAutoUnload = window.EJS_disableAutoUnload;
     config.disableBatchBootup = window.EJS_disableBatchBootup;
+    config.mouse = window.EJS_mouse;
 
     let systemLang;
     try {

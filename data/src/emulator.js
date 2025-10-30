@@ -36,7 +36,7 @@ class EmulatorJS {
             "pet": ["vice_xpet"],
             "plus4": ["vice_xplus4"],
             "vic20": ["vice_xvic"],
-            "dos": ["dosbox_pure"]
+            "dos": ["dosbox_pure"],
             "segaMDwide": ["genesis_plus_gx_wide"]
         };
         if (this.isSafari && this.isMobile) {

@@ -37,6 +37,7 @@ class EmulatorJS {
             "plus4": ["vice_xplus4"],
             "vic20": ["vice_xvic"],
             "dos": ["dosbox_pure"]
+            "segaMDwide": ["genesis_plus_gx_wide"]
         };
         if (this.isSafari && this.isMobile) {
             rv.n64 = rv.n64.reverse();
@@ -2619,7 +2620,7 @@ class EmulatorJS {
                 { id: 17, label: this.localization("RIGHT D-PAD LEFT") },
                 { id: 16, label: this.localization("RIGHT D-PAD RIGHT") },
             ];
-        } else if (["segaCD", "sega32x", "segaMD"].includes(this.getControlScheme())) {
+        } else if (["segaCD", "sega32x", "segaMD", "segaMDwide"].includes(this.getControlScheme())) {
             buttons = [
                 { id: 1, label: this.localization("A") },
                 { id: 0, label: this.localization("B") },
